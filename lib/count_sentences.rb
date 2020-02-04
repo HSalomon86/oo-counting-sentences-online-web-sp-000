@@ -17,11 +17,15 @@ class String
       return false
     end
   end
-  end
 
   def exclamation?
-
+    if self[-1] == "!"
+      return true
+    else
+      return false
+    end
   end
+
 
   def count_sentences
 
